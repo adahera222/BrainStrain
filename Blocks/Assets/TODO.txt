@@ -23,7 +23,7 @@ lsystem Hilbert3D {
     interpret > as Roll(90);
     interpret < as Roll(-90);
 
-    rewrite X to ^ < X F ^ < X F X - F ^ > > X F X & F + > > X F X - F > X - >;
+    rewrite X to ^<XF^<XFX-F^>>XFX&F+>>XFX-F>X->; //this should work
 
 }
 
