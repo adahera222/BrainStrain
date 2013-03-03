@@ -1,0 +1,40 @@
+[POST RELEASE]
+Add sounds
+(HILBERT)
+Make random level generation
+Make level creator
+Add more blocks
+
+
+[HILBERT]
+Make Hilbert curve(http://en.wikipedia.org/wiki/Hilbert_curve) level
+helbert cube array side 2^(n-1) - 1
+
+lsystem Hilbert3D {
+
+    set iterations = 3;
+    set symbols axiom = X;
+
+    interpret F as DrawForward(10);
+    interpret + as Yaw(90);
+    interpret - as Yaw(-90);
+    interpret ^ as Pitch(90);
+    interpret & as Pitch(-90);
+    interpret > as Roll(90);
+    interpret < as Roll(-90);
+
+    rewrite X to ^ < X F ^ < X F X - F ^ > > X F X & F + > > X F X - F > X - >;
+
+}
+
+1) X = ^<XF^<XFX-F^>>XFX&F+>>XFX-F>X-> (http://bit.ly/12jOofa)
+2) X = ^/XF^/XFX-F^\\XFX&F+\\XFX-F\X-\ (http://bit.ly/Wzl8cC)
+3) X = ^<XF^<XFX-F^>>XFX&F+>>XFX-F>X-> (http://bit.ly/ZNRdjr)
+
+2D Hilbert curve:
+Alphabet : A, B
+Constants : F + -
+Axiom : A
+Production rules:
+A → - B F + A F A + F B -
+B → + A F - B F B - F A +
