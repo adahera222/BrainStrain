@@ -1,7 +1,12 @@
-#Brain Strain
+#__Brain Strain__
 
 ##About
-Multiplatform puzzle game with cubes and numbers. It is made in Unity.
+Brain Strain is 3D multiplatform puzzle game with cubes and numbers made in Unity.
+
+##Rules
+1. Break apart the object into sets of blocks connected by their faces(sides)
+2. Each set must include the number of blocks shown on the numbered blocks
+3. Each set must have exacly one block with a diggit on it
 
 ##TODO
 - Add sounds
@@ -12,6 +17,8 @@ Multiplatform puzzle game with cubes and numbers. It is made in Unity.
   - 'portal' blocks
   - TNT block
   - others
+
+*full TODO [here][todo]*
 
 ##License
   ```
@@ -29,3 +36,5 @@ Multiplatform puzzle game with cubes and numbers. It is made in Unity.
   See the License for the specific language governing permissions and
   limitations under the License.
   ```
+
+[todo]: /src/Assets/TODO.txt
