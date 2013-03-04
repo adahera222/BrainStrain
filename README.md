@@ -2,11 +2,17 @@
 
 ##About
 Brain Strain is 3D multiplatform puzzle game with cubes and numbers made in Unity.
+The game is avalable in two languages - English and Bulgarian and in two platforms - Windows and Android.
 
 ##Rules
 1. Break apart the object into sets of blocks connected by their faces(sides)
 2. Each set must include the number of blocks shown on the numbered blocks
 3. Each set must have exacly one block with a diggit on it
+
+##Download
+You can download the most recen version of the game builded in the bin forlder depending on your platform:
+###[Windows][]
+###[Android][]
 
 ##TODO
 - Add sounds
@@ -36,5 +42,7 @@ Brain Strain is 3D multiplatform puzzle game with cubes and numbers made in Unit
   See the License for the specific language governing permissions and
   limitations under the License.
   ```
-
+  
+[windows]: /bin/Windows
+[android]: /bin/Android
 [todo]: /src/Assets/TODO.txt
