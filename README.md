@@ -43,6 +43,6 @@ You can download the most recen version of the game builded in the bin forlder d
   limitations under the License.
   ```
   
-[windows]: /bin/Windows
-[android]: /bin/Android
-[todo]: /src/Assets/TODO.txt
+[windows]: https://github.com/nikibobi/BrainStrain/tree/master/bin/Windows
+[android]: https://github.com/nikibobi/BrainStrain/tree/master/bin/Android
+[todo]: https://github.com/nikibobi/BrainStrain/blob/master/src/Assets/TODO.txt
